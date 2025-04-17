@@ -2,24 +2,31 @@ pipeline {
     agent any
 
     stages {
-        stage('Code Checkout') {
+        stage('check-out') {
             steps {
-                echo 'Code Checkout successfully'
+                echo 'check-out successfully'
             }
         }
-         stage('Code Compile') {
+         stage('compile') {
             steps {
-                echo 'Code Compile executed successfully'
+                echo 'compile test casees executed successfully'
             }
         }
         stage('Unit Test') {
             steps {
-                echo 'Unit Test executed successfuly'
+                echo 'application Test successfuly'
             }
         } 
-        stage('Code Packaging') {
+        stage('Code Package') {
             steps {
-                echo 'executed successfully'
+                echo 'deployed successfully'
             }
         }
-        
+        stage('regression testing') {
+            steps {
+                echo 'executed the regression test cases successfully'
+            }
+        }         
+    }             
+}                
+                
