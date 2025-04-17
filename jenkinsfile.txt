@@ -7,7 +7,7 @@ pipeline
 		{
 			steps
 			{
-				git 'https://github.com/jsachdev07/igp.git'
+				git 'https://github.com/Mckins-B/igp-april.git'
 			}
 		}
 		
